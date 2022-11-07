@@ -1,5 +1,15 @@
+import axios from "axios";
 import "./styles.css";
 
 export default function App() {
-  return <div className="App">Hello, React TypeScript</div>;
+  const onClickFetchData = () => {
+    axios.get("https://jsonplaceholder.typicode.com/todos").then((res) => {
+      console.log(res);
+    });
+  };
+  return (
+    <div className="App">
+      <button onClick={onClickFetchData}>Get Data</button>
+    </div>
+  );
 }
