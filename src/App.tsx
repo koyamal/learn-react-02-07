@@ -3,13 +3,8 @@ import { useState } from "react";
 import "./styles.css";
 
 import { Todo } from "./Todo";
+import { TodoType } from "./types/todo";
 
-type TodoType = {
-  userId: number;
-  id: number;
-  title: string;
-  completed: boolean;
-};
 export default function App() {
   const [todos, setTodos] = useState<Array<TodoType>>([]);
   const onClickFetchData = () => {
