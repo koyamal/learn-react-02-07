@@ -7,5 +7,5 @@ type Props = {
 
 export const Text: VFC<Props> = (props) => {
   const { color, fontSize } = props;
-  return <p style={{ color, fontSize }}>This is Text.</p>;
+  return <p style={{ color, fontSize }}>This is Text Component.</p>;
 };
