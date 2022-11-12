@@ -15,7 +15,6 @@ export default function App() {
       .get<Array<TodoType>>("https://jsonplaceholder.typicode.com/todos")
       .then((res) => {
         setTodos(res.data);
-        // setTodos('res.data');
         console.log(res);
       });
   };
