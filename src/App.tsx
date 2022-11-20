@@ -25,9 +25,10 @@ export default function App() {
   return (
     <div className="App">
       <UserProfile user={user} />
-      <Text color="blue" fontSize="28px" content="This is Text Component." />
+      <Text color="blue" fontSize="30px" content="This is Text Component." />
       <Text content="This is Text Component." />
       <Text color="pink" content="This is Text Component." />
+      <Text color="yellow" fontSize="18px" content="This is Text Component." />
       <button onClick={onClickFetchData}>Get Data</button>
       {todos.map((todo) => {
         return (
