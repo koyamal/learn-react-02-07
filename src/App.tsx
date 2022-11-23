@@ -20,7 +20,7 @@ export default function App() {
   };
   const user: User = {
     name: "Tommy",
-    hobbies: ["Jog", "Game", "Movie", "Internet", "Soccer"]
+    hobbies: ["Jog", "Game", "Movie", "Internet", "Soccer", "Cooking"]
   };
   return (
     <div className="App">
