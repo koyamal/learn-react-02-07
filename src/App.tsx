@@ -29,6 +29,7 @@ export default function App() {
       <Text content="This is Text Component." />
       <Text color="pink" content="This is Text Component." />
       <Text color="yellow" fontSize="18px" content="This is Text Component." />
+      <Text color="red" fontSize="32px" content="This is Text Component." />
       <button onClick={onClickFetchData}>Get Data</button>
       {todos.map((todo) => {
         return (
