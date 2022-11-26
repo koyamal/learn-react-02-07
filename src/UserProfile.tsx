@@ -15,7 +15,7 @@ export const UserProfile: VFC<Props> = (props) => {
       <dt>Hobbies</dt>
       <dd>{user.hobbies?.join(" / ")}</dd>
       <dt>Word</dt>
-      <dd>Hello</dd>
+      <dd>Hello World</dd>
     </dl>
   );
 };
