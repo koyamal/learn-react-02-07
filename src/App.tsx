@@ -44,6 +44,7 @@ export default function App() {
         content="Is this Text Component?"
         backgroundColor="black"
       />
+      <Text2 color="black" fontSize="32px" content="Is this Text Component?" />
       <button onClick={onClickFetchData}>Get Data</button>
       {todos.map((todo) => {
         return (
