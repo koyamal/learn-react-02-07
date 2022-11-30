@@ -38,6 +38,12 @@ export default function App() {
         content="Is this Text Component?"
         backgroundColor="yellow"
       />
+      <Text2
+        color="white"
+        fontSize="32px"
+        content="Is this Text Component?"
+        backgroundColor="black"
+      />
       <button onClick={onClickFetchData}>Get Data</button>
       {todos.map((todo) => {
         return (
