@@ -30,8 +30,9 @@ export default function App() {
       <Text content="This is Text Component." />
       <Text color="pink" content="This is Text Component." />
       <Text color="black" fontSize="18px" content="This is Text Component." />
+      <Text color="lime" fontSize="18px" content="This is Text Component." />
       <Text color="red" fontSize="32px" content="Is this Text Component?" />
-      <Text2 color="blue" fontSize="32px" content="Is this Text Component?" />
+      <Text2 color="lime" fontSize="32px" content="Is this Text Component?" />
       <Text2
         color="blue"
         fontSize="32px"
